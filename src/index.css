@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+}
+
+p {
+  font-size: large;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.TransformUnitArea {
+  height: 5rem;
+  display: flex;
+  background-color: #23262C;
+}
+
+.TransformUnitArea > input {
+  width: 50%;
+  background-color: #1b1d22;
+  border: #1b1d22;
+  color: rgb(151, 150, 150);
+  font-size: 2.5rem;
+  padding-left: 2rem;
+}
+
+.TransformUnitArea > h2 {
+  padding-left: 1rem;
+  text-align: left;
+  width: 50%;
+  color: gray;
+}
+
+#card {
+  width: 70%;
+  background-color: #23262C;
+  border-radius: 1rem;
+  overflow: hidden;
+}
